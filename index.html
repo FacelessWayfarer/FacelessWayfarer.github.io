@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="PWA приложение">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+    <link rel="shortcut icon" href="images/icons/icon-32.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="manifest" href="manifest.json">
+<!--  <link rel="shortcut icon" href="favicon.ico"> -->  
+    <link rel="apple-touch-icon" href="images/icons/icon-32.png">
+    <link rel="apple-touch-icon" href="images/icons/icon-64.png">
+    <link rel="apple-touch-icon" href="images/icons/icon-96.png">
+    <link rel="apple-touch-icon" href="images/icons/icon-128.png">
+    <link rel="apple-touch-icon" href="images/icons/icon-192.png">
+    <link rel="apple-touch-icon" href="images/icons/icon-256.png">
+    <link rel="apple-touch-icon" href="images/icons/icon-512.png">
+<!--	<link rel="apple-touch-icon" href="images/icons/icon-1024.png"> -->
+<!--	<link rel="android-touch-startup-image" href="icons/android-launch-1080x2400.png"> -->
+    <meta name="apple-mobile-web-app-status-bar" content="#da5867">
+    <meta name="theme-color" content="#da5867">
+    <meta name="apple-mobile-web-app-title" content="PWA Fomichev Ivan Test">
+
+    <title>PWA Fomichev Ivan Test</title>
+    <script src="js/app.js" defer></script>
+  </head>
+  <body>
+    <nav>
+          <h1>PWA Fomichev Ivan Test</h1>
+          <ul id="menu">
+            <li class="home">Home</li>
+            <li class="log">Log</li>
+            <li class="api_emojis">Emojis</li>
+            <li class="contact">Contacts</li>
+          </ul>
+        </nav>
+      <div id="content">
+        <button id="install-btn">
+          <div id='btn_content'>
+            <div id="img_position"><img src="/images/download.png"  alt="значок загрузки" width="32px" height="32px"></div>
+            <div>Download & Install</div>
+          </div>
+        </button>
+        <div id='cont'></div>
+      </div>
+  </body>
+</html>

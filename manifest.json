@@ -1,0 +1,53 @@
+{
+  "name": "PWA Fomichev",
+  "short_name": "PWA Fomichev",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#D5E9F3",
+  "theme_color": "#da5867",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/images/icons/icon-32.png",
+      "type": "image/png",
+      "sizes": "32x32",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/images/icons/icon-64.png",
+      "type": "image/png",
+      "sizes": "64x64",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/images/icons/icon-96.png",
+      "type": "image/png",
+      "sizes": "96x96",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/images/icons/icon-128.png",
+      "type": "image/png",
+      "sizes": "128x128",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/images/icons/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/images/icons/icon-256.png",
+      "type": "image/png",
+      "sizes": "256x256",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/images/icons/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ]
+}

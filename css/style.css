@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #9fddfc;
+  font-family: "Nunito", sans-serif;
+  font-size: 1rem;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 0.5rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+nav {
+  
+  display: flex;
+/*   justify-content: space-between; */
+  align-items: center;
+}
+
+#menu {
+  list-style: none;
+  display: flex;
+  margin: 0; 
+}
+
+#menu li {
+  margin-right: 0.5rem;
+  padding: 10px;
+  text-decoration: none;
+  color: #812b2b;
+  border: 2px solid #f3e962;
+  border-radius: 5rem;
+  background-color: #E6E6EF;
+}
+
+#menu li:hover {
+	margin-right: 0.5rem;
+	color: #E6E6EF;
+	border: 2px solid #E6E6EF;
+	border-radius: 15px;
+	background-color: #f3e962;
+}
+
+#menu li:hover, #menu li.active {
+	margin-right: 0.5rem;
+	color: #E6E6EF;
+	border: 2px solid #E6E6EF;
+	border-radius: 15px;
+	background-color: #f3e962;
+}
+
+.border {
+    padding: 0;
+}
+
+.border div {
+    padding: 7px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-left: 4rem solid #f5e870;
+    border-right: 4rem solid #f5e870;
+    text-align: center;
+    box-shadow: 2px -2px 5px 0 rgba(0,0,0,.1), -2px -2px 5px 0 rgba(0,0,0,.1), 2px 2px 5px 0 rgba(0,0,0,.1), -2px 2px 5px 0 rgba(0,0,0,.1);
+    font-size: 20px;
+    letter-spacing: 2px;
+    transition: 0.3s all linear;
+}
+
+.emojis {
+    display: flex;
+    /*flex-wrap: wrap; justify-content: space-around;*/
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Log */
+.logstr {
+    font-size: 1em;
+    color: blue;
+    border: 3px dashed blue;
+    margin-bottom: 1%;
+    padding: 3px 10px 3px 10px;
+    word-break: break-word;
+}
+
+.logswstr {
+    font-size: 1em;
+    border: 3px solid red;
+    color: #ff4411 !important;
+    margin-bottom: 1%;
+    padding: 3px 10px 3px 10px;
+    word-break: break-word;
+}
+
+/* Install Button */
+#install-btn {
+    background: #0047AB;
+    font-size: 200%;
+    margin: 1em auto;
+    display: block;
+    padding: .2em;
+    color: white;
+    width: 10em;
+    max-width: 50%;
+    line-height: 1.2em;
+    border-radius: 10px;
+}
+#install-btn.active {
+    display: block;
+}
+#install-btn {
+    display: none;
+}
+div#btn_content{
+    display: flex;
+    justify-content: center;
+}
+div#img_position{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-right: 15px;
+}
+h1 {
+  color: #660a0a;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  padding: 3%;
+  font-style: italic;
+}
+
+/* Content */
+div#content {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 25px 0px 114px 50px;
+    overflow: scroll;
+    background: #dcedf7;
+    border-radius: 1.5px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-box-shadow: -3px 0 6px #101d2c;
+    -webkit-box-shadow: -3px 0 6px #101d2c;
+    box-shadow: -3px 0 6px #101d2c;
+    -moz-transition: all 300ms;
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 1rem 0;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 15rem auto;
+  height: 12rem;
+  background: #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 10px;
+  margin: auto;
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+
+.card--avatar {
+  width: 100%;
+  height: 10rem;
+  object-fit: none;
+  border-bottom: 2px solid gray;
+}
+.card--title {
+  color: #222;
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+}
+
+.card--link {
+  text-decoration: none;
+  background: #db4938;
+  color: #fff;
+  padding: 0.3rem 1rem;
+  border-radius: 20px;
+}
